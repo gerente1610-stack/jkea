@@ -52,17 +52,17 @@
 
     <section class="py-24 px-6 bg-[#0f172a]">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-            <div class="card-dark p-10 rounded-[2.5rem] border-l-4 border-l-red-500">
+            <div class="card-dark p-10 rounded-[2.5rem] border-l-4 border-l-red-500 shadow-xl text-center md:text-left">
                 <i class="fa-solid fa-ban text-red-500 text-2xl mb-4"></i>
                 <h4 class="text-white font-black uppercase text-sm mb-4 italic">Sin Traspasos Opacos</h4>
                 <p class="text-slate-400 text-xs leading-relaxed italic">Evita el riesgo de perder tu dinero en propiedades con estatus legal dudoso.</p>
             </div>
-            <div class="bg-blue-600 p-10 rounded-[2.5rem] shadow-2xl scale-105">
+            <div class="bg-blue-600 p-10 rounded-[2.5rem] shadow-2xl scale-105 text-center">
                 <i class="fa-solid fa-check-double text-white text-3xl mb-4"></i>
-                <h4 class="text-white font-black uppercase text-sm mb-4 text-center">Garantía Jurídica</h4>
-                <p class="text-white/90 text-xs leading-relaxed italic font-semibold text-center">Propiedades filtradas legalmente. Si está aquí, es una compra segura.</p>
+                <h4 class="text-white font-black uppercase text-sm mb-4">Garantía Jurídica</h4>
+                <p class="text-white/90 text-xs leading-relaxed italic font-semibold">Propiedades filtradas legalmente. Si está aquí, es una compra segura.</p>
             </div>
-            <div class="card-dark p-10 rounded-[2.5rem] border-r-4 border-r-blue-500">
+            <div class="card-dark p-10 rounded-[2.5rem] border-r-4 border-r-blue-500 shadow-xl text-center md:text-left">
                 <i class="fa-solid fa-user-shield text-blue-500 text-2xl mb-4"></i>
                 <h4 class="text-white font-black uppercase text-sm mb-4 italic">Acompañamiento</h4>
                 <p class="text-slate-400 text-xs leading-relaxed italic">Te llevamos de la mano hasta la firma ante notario público.</p>
@@ -74,7 +74,7 @@
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
             <div class="md:w-1/2">
                 <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" class="rounded-[3rem] shadow-2xl border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" class="rounded-[3rem] shadow-2xl border border-slate-700" alt="JKA Inmobiliaria">
                 </div>
             </div>
             <div class="md:w-1/2 text-left">
@@ -103,17 +103,17 @@
             
             <div id="adminPanel" class="hidden max-w-4xl mx-auto mb-20 p-8 bg-slate-900 border-2 border-blue-600/40 rounded-[2.5rem] shadow-2xl">
                 <form id="houseForm" class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-left">
-                    <input type="text" id="imgInp" placeholder="Link de Foto" class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="streetInp" placeholder="Calle y Número" class="p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="colInp" placeholder="Colonia" class="p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="munInp" placeholder="Municipio" class="p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="estInp" placeholder="Estado" class="p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="priceInp" placeholder="Precio (Sólo números)" class="p-4 bg-slate-800 rounded-xl border border-slate-700" required>
-                    <input type="text" id="avaInp" placeholder="Avalúo" class="p-4 bg-slate-800 rounded-xl border border-slate-700">
-                    <input type="text" id="carInp" placeholder="Carta" class="p-4 bg-slate-800 rounded-xl border border-slate-700">
-                    <input type="text" id="mapsInp" placeholder="Link Google Maps" class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700">
-                    <textarea id="descInp" placeholder="Descripción..." class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700 h-24"></textarea>
-                    <button type="submit" class="md:col-span-2 bg-blue-600 p-5 rounded-xl font-black uppercase text-white hover:bg-blue-500 transition">Publicar</button>
+                    <input type="text" id="imgInp" placeholder="Link de Foto" class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="streetInp" placeholder="Calle y Número" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="colInp" placeholder="Colonia" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="munInp" placeholder="Municipio" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="estInp" placeholder="Estado" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="priceInp" placeholder="Precio (Sólo números)" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white" required>
+                    <input type="text" id="avaInp" placeholder="Avalúo" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white">
+                    <input type="text" id="carInp" placeholder="Carta" class="p-4 bg-slate-800 rounded-xl border border-slate-700 text-white">
+                    <input type="text" id="mapsInp" placeholder="Link Google Maps" class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700 text-white">
+                    <textarea id="descInp" placeholder="Descripción..." class="md:col-span-2 p-4 bg-slate-800 rounded-xl border border-slate-700 h-24 text-white"></textarea>
+                    <button type="submit" class="md:col-span-2 bg-blue-600 p-5 rounded-xl font-black uppercase text-white hover:bg-blue-500 transition shadow-lg">Publicar Propiedad</button>
                 </form>
             </div>
 
@@ -126,12 +126,12 @@
     </footer>
 
     <script>
-        // URLs Dinámicas de Google Sheets
+        // URLs Configuradas
         const SHEET_PROPIEDADES = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQHQf7b5O2BeNcp2h9YQrBYdGiyQ0Z22piNbVoPWUl4mJIEbX-zxCHsxthpQmF3eRTLEgIFXa4lODMK/pub?output=csv';
         const SHEET_USUARIOS = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQHQf7b5O2BeNcp2h9YQrBYdGiyQ0Z22piNbVoPWUl4mJIEbX-zxCHsxthpQmF3eRTLEgIFXa4lODMK/pub?gid=844715514&single=true&output=csv';
-        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZmOosDyGAXTtsJRJqxBXKKNMjRH2QcAOfPjs1tlteIMwcp1_4dorCGg90F6vsohpX8Q/exec';
+        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxSyT022PiBEwIx9DbESeWJ53NRyJl75AYPuYfHhiz8LfHwPhFjOhj6H8J_TbcvyJyuQg/exec';
 
-        // Lector universal de CSV
+        // Lector de CSV
         function getRowsFromCSV(text) {
             const rows = []; let curr = []; let field = ''; let inQ = false;
             for (let i = 0; i < text.length; i++) {
@@ -145,7 +145,7 @@
             return rows;
         }
 
-        // Validación de ADMIN contra pestaña Usuarios
+        // Login de Admin contra Excel
         async function revealAdmin() {
             const userInp = prompt("Nombre de Usuario:");
             if (!userInp) return;
@@ -158,11 +158,10 @@
                 const users = getRowsFromCSV(text);
                 
                 let autorizado = false;
-                // Buscamos: A:Nombre, B:Correo, C:Contraseña, D:Rol
                 for (let i = 1; i < users.length; i++) {
                     const [nombre, correo, pass, rol] = users[i];
                     if (nombre === userInp && pass === passInp) {
-                        if ((rol || "").toLowerCase() === "admin") {
+                        if ((rol || "").toLowerCase().includes("admin")) {
                             autorizado = true;
                             break;
                         }
@@ -171,16 +170,14 @@
 
                 if (autorizado) {
                     document.getElementById('adminPanel').classList.toggle('hidden');
-                    document.getElementById('adminPanel').scrollIntoView();
+                    document.getElementById('adminPanel').scrollIntoView({ behavior: 'smooth' });
                 } else {
-                    alert("Usuario o Contraseña incorrectos o sin permisos de Admin.");
+                    alert("Credenciales incorrectas o sin permisos.");
                 }
-            } catch (e) {
-                alert("Error al validar acceso.");
-            }
+            } catch (e) { alert("Error de conexión."); }
         }
 
-        // Cargar Propiedades
+        // Cargar y Mostrar Propiedades
         async function loadHouses() {
             try {
                 const res = await fetch(SHEET_PROPIEDADES + '&cb=' + Date.now());
@@ -196,22 +193,22 @@
                     const h = { img: row[1], calle: row[2], col: row[3], mun: row[4], edo: row[5], precio: row[6], ava: row[7], car: row[8], desc: row[9], maps: row[10] };
                     const pFmt = Number(h.precio.replace(/[^0-9.]/g, '')).toLocaleString('es-MX');
 
-                    const waMsg = encodeURIComponent(`Hola vengo de la página web JKA INMOBILIARIA, me interesa la casa que esta en:\n\nCalle: ${h.calle}\nColonia: ${h.col}\nMunicipio: ${h.mun}\nPrecio: $${pFmt}\nAvaluo: ${h.ava}\nCarta: ${h.car}`);
+                    const waMsg = encodeURIComponent(`Hola vengo de la página web JKA INMOBILIARIA, me interesa la casa:\n\nCalle: ${h.calle}\nColonia: ${h.col}\nPrecio: $${pFmt}\nAvaluo: ${h.ava}\nCarta: ${h.car}`);
 
                     container.innerHTML += `
-                        <div class="house-card bg-[#1e293b] rounded-[2.5rem] overflow-hidden flex flex-col h-full shadow-2xl text-left">
-                            <img src="${h.img}" class="h-64 w-full object-cover">
+                        <div class="house-card bg-[#1e293b] rounded-[2.5rem] overflow-hidden flex flex-col h-full shadow-2xl text-left border border-slate-800">
+                            <img src="${h.img}" class="h-64 w-full object-cover" loading="lazy">
                             <div class="p-8 flex flex-col flex-grow">
                                 <h3 class="text-3xl font-black text-white mb-2">$${pFmt}</h3>
                                 <p class="text-slate-400 text-[11px] font-bold mb-6 uppercase italic"><i class="fa-solid fa-location-dot text-blue-500 mr-1"></i> ${h.calle}, ${h.col}</p>
                                 <div class="flex flex-wrap gap-2 mb-6">
-                                    <span class="badge-info text-[9px]">Avalúo: ${h.ava}</span>
-                                    <span class="badge-info text-[9px]">Carta: ${h.car}</span>
+                                    <span class="badge-info">Avalúo: ${h.ava || 'N/A'}</span>
+                                    <span class="badge-info">Carta: ${h.car || 'N/A'}</span>
                                 </div>
-                                <p class="text-slate-500 text-[11px] italic mb-8 line-clamp-4 italic leading-relaxed">"${h.desc}"</p>
-                                <div class="grid gap-3">
-                                    <a href="https://wa.me/528115041788?text=${waMsg}" target="_blank" class="bg-[#25D366] text-white py-4 rounded-2xl font-black text-[10px] text-center uppercase shadow-lg">Me interesa esta casa</a>
-                                    <a href="${h.maps}" target="_blank" class="text-slate-600 text-[9px] text-center uppercase font-bold">Ver Ubicación</a>
+                                <p class="text-slate-500 text-[11px] italic mb-8 line-clamp-4 leading-relaxed">"${h.desc}"</p>
+                                <div class="grid gap-3 mt-auto">
+                                    <a href="https://wa.me/528115041788?text=${waMsg}" target="_blank" class="bg-[#25D366] text-white py-4 rounded-2xl font-black text-[10px] text-center uppercase shadow-lg hover:bg-green-600 transition">Me interesa esta casa</a>
+                                    <a href="${h.maps}" target="_blank" class="text-slate-600 text-[9px] text-center uppercase font-bold hover:text-blue-400">Ver Ubicación</a>
                                 </div>
                             </div>
                         </div>`;
@@ -219,12 +216,14 @@
             } catch (e) { console.error(e); }
         }
 
-        // Publicar Propiedad
+        // Guardar Propiedad (Hacia Google Sheets)
         document.getElementById('houseForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const btn = e.target.querySelector('button');
-            btn.innerHTML = "PUBLICANDO...";
+            const originalText = btn.innerHTML;
+            btn.innerHTML = "GUARDANDO EN EXCEL...";
             btn.disabled = true;
+
             const payload = {
                 imagen: document.getElementById('imgInp').value,
                 calle: document.getElementById('streetInp').value,
@@ -237,11 +236,20 @@
                 descripcion: document.getElementById('descInp').value,
                 maps: document.getElementById('mapsInp').value
             };
+
             try {
-                await fetch(APPS_SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: JSON.stringify(payload) });
-                alert("Propiedad Registrada con Éxito");
+                await fetch(APPS_SCRIPT_URL, { 
+                    method: 'POST', 
+                    mode: 'no-cors', 
+                    body: JSON.stringify(payload) 
+                });
+                alert("¡Publicación Exitosa! Los datos se enviaron a tu Google Sheet.");
                 location.reload();
-            } catch (err) { alert("Error"); btn.disabled = false; }
+            } catch (err) { 
+                alert("Error al enviar datos."); 
+                btn.disabled = false; 
+                btn.innerHTML = originalText; 
+            }
         });
 
         loadHouses();
